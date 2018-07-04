@@ -1,0 +1,45 @@
+backend:
+  name: git-gateway
+  branch: master
+
+publish_mode: editorial_workflow
+media_folder: static/img
+public_folder: /img
+
+collections:
+  - name: "pages"
+    label: "Pages"
+    files:
+    - file: "src/pages/index.md"
+      label: "Home"
+      name: "home"
+      fields:
+        - {label: "Template Key", name: "templateKey", widget: "hidden", default: "home-page"}
+        - {label: "Title", name: "title", widget: "string"}
+        - {label: "SubTitle", name: "subtitle", widget: "string"}
+        - {label: "Banner", name: "banner", widget: "image"}
+        - {label: "Features", name: "features", widget: "list", fields: [{label: "Feature", name: "feature", widget: "string"}, {label: "Description", name: "description", widget: "markdown"}, {label: "Feature Image", name: "feature_image", widget: "image"}]}
+        - {label: "Clients", name: "clients", widget: "list", fields: [{label: "Client", name: "client", widget: "string"}, {label: "Client Image", name: "client_image", widget: "image"}]}
+        - {label: "Testimonials", name: "testimonials", widget: "list", fields: [{label: "Testimonial", name: "testimonial", widget: "string"}, {label: "Name", name: "name", widget: "string"}]}
+        - {label: "Meta Title", name: "meta_title", widget: "string"}
+        - {label: "Meta Description", name: "meta_description", widget: "text"}
+    - file: "src/pages/about/index.md"
+      label: "About"
+      name: "about"
+      fields:
+        - {label: "Template Key", name: "templateKey", widget: "hidden", default: "about-page"}
+        - {label: "Title", name: "title", widget: "string"}
+        - {label: "Image", name: "image", widget: "image"}
+        - {label: "Body", name: "body", widget: "markdown"}
+        - {label: "Meta Title", name: "meta_title", widget: "string"}
+        - {label: "Meta Description", name: "meta_description", widget: "text"}
+    - file: "src/pages/contact/index.md"
+      label: "Contact Page"
+      name: "contact"
+      fields:
+        - {label: "Template Key", name: "templateKey", widget: "hidden", default: "contact-page"}
+        - {label: "Title", name: "title", widget: "string"}
+        - {label: "Subtitle", name: "subtitle", widget: "string"}
+        - {label: "Contacts", name: "contacts", widget: "list", fields: [{label: "Email", name: "email", widget: "string"}, {label: "Description", name: "description", widget: "string"}]}
+        - {label: "Meta Title", name: "meta_title", widget: "string"}
+        - {label: "Meta Description", name: "meta_description", widget: "text"}
