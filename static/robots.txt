@@ -1,4 +1,4 @@
 User-agent: *
 Disallow: */admin/
 
-sitemap: https://zeromed.in/sitemap.xml
+sitemap: https://www.zeromed.in/sitemap.xml

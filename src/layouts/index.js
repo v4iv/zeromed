@@ -4,7 +4,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 import Helmet from "gatsby-plugin-react-helmet";
-import "../assets/css/fontawesome-all.min.css";
+import "../assets/css/fontawesome-all.css";
 import "../assets/sass/styles.sass";
 import config from "../../data/config";
 import Socials from "../components/Socials";
@@ -20,7 +20,7 @@ const TemplateWrapper = ({children}) => (
         <div className="wrapper">
             <Navbar/>
             <div>{children()}</div>
-            <Footer config={config}/>
+            <Footer/>
             <Socials config={config}/>
         </div>
     </div>

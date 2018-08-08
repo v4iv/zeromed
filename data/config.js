@@ -4,7 +4,7 @@
 module.exports = {
     siteTitle: "ZeroMed Integrated Printing Solutions", // Site title.
     siteTitleAlt: "ZeroMed", // Alternative site title for SEO.
-    siteLogo: "/logos/logo-512x512.png", // Logo used for SEO and manifest.
+    siteLogo: "/icons/icon-512x512.png", // Logo used for SEO and manifest.
     siteUrl: "https://www.zeromed.in", // Domain of your website without pathPrefix.
     pathPrefix: "/", // Prefixes all links. For cases when deployed to example.github.io/gatsby-starter-business/.
     siteDescription: "Leverage our DICOM printing solution to produce prints of Diagnostic Medical Images. We provide a seamless print environment, with superior quality and substantial cost savings.", // Website description used for RSS feeds/meta description tag.
@@ -12,9 +12,9 @@ module.exports = {
     siteFBAppID: "", // FB Application ID for using app insights
     googleTagManagerID: "", // GTM tracking ID.
     disqusShortname: "", // Disqus shortname.
-    userName: "Eshpreet Bholla",
-    userTwitter: "eshpreetbholla",
-    userLocation: "Jalandhar, India",
+    userName: "Gurmeet",
+    userTwitter: "gurmeet",
+    userLocation: "India",
     userDescription: "",
     userLinks: [
         {
