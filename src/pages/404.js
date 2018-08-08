@@ -5,7 +5,7 @@ import React from 'react'
 
 const NotFoundPage = () => (
   <div>
-    <section className="hero is-primary is-bold is-medium">
+    <section className="hero is-info is-bold is-medium">
       <div className="hero-body">
         <div className="container">
           <div className="columns">
