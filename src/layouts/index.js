@@ -24,10 +24,10 @@ const TemplateWrapper = ({children}) => (
             <Socials config={config}/>
         </div>
     </div>
-);
+)
 
 TemplateWrapper.propTypes = {
     children: PropTypes.func
-};
+}
 
 export default TemplateWrapper;
