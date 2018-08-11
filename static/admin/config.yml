@@ -21,3 +21,13 @@ collections:
     - {label: "CTA", name: "cta_strip", widget: "object", fields: [{label: "Heading", name: "heading", widget: "string"}, {label: "Subheading", name: "subheading", widget: "text"}]}
     - {label: "Meta Title", name: "meta_title", widget: "string"}
     - {label: "Meta Description", name: "meta_description", widget: "text"}
+  - file: "src/pages/about/index.md"
+    label: "About"
+    name: "about"
+    fields:
+    - {label: "Template Key", name: "templateKey", widget: "hidden", default: "about-page"}
+    - {label: "Image", name: "image", widget: "image"}
+    - {label: "Title", name: "title", widget: "string"}
+    - {label: "Body", name: "body", widget: "markdown"}
+    - {label: "Meta Title", name: "meta_title", widget: "string"}
+    - {label: "Meta Description", name: "meta_description", widget: "text"}

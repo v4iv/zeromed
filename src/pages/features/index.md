@@ -5,8 +5,8 @@ meta_description: >-
   Leverage our DICOM printing solution to produce prints of Diagnostic Medical Images. 
   We provide a seamless print environment, with superior quality and substantial cost 
   savings.
-title: Introducing a changing face of modern Radiology, 'Zeroing-In' on Healthcare Imaging.
-subtitle: We at ZeroMed deal in image printing for all Radiology Modalities. Experience “Revolution in Resolution” digital prints on conventional Inkjet / Laser Printers with high resolutions images (up to 5760 DPI) on our special OSC plates.
+title: Lorem ipsum dolor sit amet
+subtitle: blah blah blah blah blah blah blah blah blah
 offerings:
   blurbs:
     - image: /img/cat.jpeg
@@ -42,7 +42,8 @@ offerings:
         Our Equity is soft on pocket too, as the overall printing cost is much less than the 
         conventional blue-black image plates.
 cta_strip:
-  heading: We wish to provide our exceptional services for your DICOM needs.
-  subheading: We understand the importance of Quality for Health-care providers, also the urgency it comes with! 
-              And our 24/7 availed services are an attempt to provide you the best!
+  heading: Sed in consequat leo, sit amet ullamcorper lacus.
+  subheading: Vestibulum libero lectus, dignissim eget magna sit amet, malesuada tincidunt mi. Vivamus 
+              sed erat iaculis mauris efficitur vehicula. Aliquam sed urna at tellus ullamcorper 
+              venenatis molestie ut mi.
 ---              

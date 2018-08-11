@@ -1,6 +1,5 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import Helmet from 'react-helmet'
 import Offerings from '../Offerings'
 import CTA from '../CTA'
 
@@ -13,10 +12,6 @@ const HomePageTemplate = ({
                               cta_strip,
                           }) => (
     <div>
-        <Helmet>
-            <title>{meta_title}</title>
-            <meta name='description' content={meta_description}/>
-        </Helmet>
         <section className="hero is-large is-info is-bold">
             <div className="hero-body">
                 <div className="container">

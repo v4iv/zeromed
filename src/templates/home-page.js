@@ -3,20 +3,25 @@
  */
 import React from 'react'
 import PropTypes from 'prop-types'
+import Helmet from "react-helmet";
 import HomePageTemplate from '../components/HomePageTemplate'
 
 const HomePage = ({data}) => {
     const {frontmatter} = data.markdownRemark
 
     return (
-        <HomePageTemplate
-            title={frontmatter.title}
-            subtitle={frontmatter.subtitle}
-            meta_title={frontmatter.meta_title}
-            meta_description={frontmatter.meta_description}
-            offerings={frontmatter.offerings}
-            cta_strip={frontmatter.cta_strip}
-        />
+        <div>
+            <Helmet>
+                <title>{frontmatter.meta_title}</title>
+                <meta name='description' content={frontmatter.meta_description}/>
+            </Helmet>
+            <HomePageTemplate
+                title={frontmatter.title}
+                subtitle={frontmatter.subtitle}
+                offerings={frontmatter.offerings}
+                cta_strip={frontmatter.cta_strip}
+            />
+        </div>
     )
 }
 

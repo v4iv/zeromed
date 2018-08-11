@@ -30,7 +30,7 @@ export default class HTML extends Component {
             )
         }
         return (
-            <html lang="en">
+            <html lang="en" className="has-navbar-fixed-top">
             <head>
                 <meta charSet="utf-8"/>
                 <meta
@@ -47,7 +47,7 @@ export default class HTML extends Component {
                 dangerouslySetInnerHTML={{__html: this.props.body}}
             />
             {this.props.postBodyComponents}
-            {/*<script src={__PATH_PREFIX__ + '/js/bulma.min.js'}/>*/}
+            <script src={__PATH_PREFIX__ + '/js/bulma.js'}/>
             </body>
             </html>
         )
