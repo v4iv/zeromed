@@ -3,7 +3,7 @@
  */
 import React from "react";
 import PropTypes from "prop-types";
-import Helmet from "gatsby-plugin-react-helmet";
+import Helmet from "react-helmet";
 import "../assets/css/fontawesome-all.css";
 import "../assets/sass/styles.sass";
 import config from "../../data/config";

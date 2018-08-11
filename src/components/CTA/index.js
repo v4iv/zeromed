@@ -2,7 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 
 const CTA = ({cta}) => (
-    <section className="hero is-info">
+    <section className="hero is-medium is-info">
         <div className="hero-body">
             <div className="container has-text-centered">
                 <h1 className="title">
